@@ -5,7 +5,7 @@ function drawCharts() {
   drawChart2();
   drawChart3();
   drawChart4();
-  drawChart5(); // Nuevo gráfico 5
+  drawChart5(); 
 }
 
 function drawChart1() {
@@ -108,3 +108,6 @@ function drawChart5() {
   let chart = new google.visualization.PieChart(document.getElementById('chart_container5'));
   chart.draw(data, options);
 }
+
+
+
