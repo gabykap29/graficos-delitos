@@ -8,21 +8,30 @@
   <style>
     /* Personalización de estilos */
     body {
-      
       background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
     }
     header {
       background-color: #343a40;
       color: #fff;
-      padding: 10px 0;
-      padding-top: 0;
+      padding: 20px 0;
       text-align: center;
+      border-bottom: 5px solid #28a745;
     }
     main {
-      padding: 20px 0;
+      padding: 40px 0;
     }
     .chart-container {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+    p{
+      padding: 20px 0;
+      text-align: justify;
+      color: #6c757d;
     }
   </style>
   <script src="https://www.google.com/jsapi"></script>
@@ -48,12 +57,19 @@
         <div class="col-md-6">
           <div class="chart-container">
             <div id="chart_container1"></div>
+            <p class="">
+              Cantidad de crímenes por mes: Seleccionamos un gráfico de barras para representar la cantidad de crímenes por mes debido a su capacidad para facilitar la comparación, su orden temporal natural, la legibilidad de las etiquetas y su familiaridad para los lectores.
+            </p>
           </div>
         </div>
         <div class="col-md-6">
           <div class="chart-container">
             <div id="chart_container2"></div>
+            <p>
+              Porcentaje de delitos por día de la semana: Un gráfico de torta nos pareció útil para resaltar la distribución de los delitos a lo largo de la semana y mostrar visualmente cuál es el día con la mayor cantidad de delitos en comparación con otros días.
+            </p>
           </div>
+          
         </div>
       </div>
 
@@ -61,11 +77,17 @@
         <div class="col-md-6">
           <div class="chart-container">
             <div id="chart_container3"></div>
+            <p>
+              Cantidad de crímenes por barrios: Seleccionamos un grafico de barras para representar la cantidad de crímenes por barrio debido a su capacidad para facilitar la comparación, el ordenamiento y jerarquía, la legibilidad de las etiquetas y su familiaridad para los lectores.
+            </p>
           </div>
         </div>
         <div class="col-md-6">
           <div class="chart-container">
             <div id="chart_container4"></div>
+            <p>
+              Cantidad de crímenes por tipo: Seleccionamos un gráfico de barras para representar la cantidad de crímenes por tipo de crimen debido a su capacidad para facilitar la comparación, el ordenamiento, la legibilidad de las etiquetas y su familiaridad para los lectores.
+            </p>
           </div>
         </div>
       </div>
@@ -73,7 +95,13 @@
       <div class="row">
         <div class="col-md-12">
           <div class="chart-container">
-            <div id="chart_container5"></div>
+            <div id="chart_container5">
+              
+            </div>
+            <p class="">
+              Porcentaje de crímenes por tipo de crimen: Para representar la distribución de diferentes tipos de crímenes, seleccionamos también un gráfico de torta para tener una mejor representación visual, ya que, el gráfico de torta es útil para mostrar porcentajes y ver la diferencia entre ellos.
+            </p>
+            
           </div>
         </div>
       </div>
